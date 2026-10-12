@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="AutoCare Pro brings your vehicle workshop together. Manage service jobs, vehicles, customers and your team on Windows and Mac.">
+  <meta name="theme-color" content="#f7f6f2">
+  <meta property="og:title" content="AutoCare Pro — Your workshop. In motion.">
+  <meta property="og:description" content="One shared workspace for your service jobs, vehicles, customers and team. Download for Windows and Mac.">
+  <link rel="icon" href="assets/logo.png">
+  <link rel="stylesheet" href="styles.css">
+  <script src="app.js" defer></script>
+  <title>AutoCare Pro — Your workshop. In motion.</title>
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+<header class="site-header">
+  <a class="brand" href="#" aria-label="AutoCare Pro home"><img src="assets/logo.png" alt="" width="36" height="36"><span>AutoCare<span class="brand-pro"> Pro</span></span></a>
+  <nav aria-label="Main navigation"><a href="#features">Features</a><a href="#inside">Inside the app</a><a href="#faq">FAQ</a></nav>
+  <a class="button button-small" href="#download">Get the app <span aria-hidden="true">↗</span></a>
+</header>
+<main id="main">
+  <section class="hero container">
+    <div class="hero-copy">
+      <p class="eyebrow"><span class="live-dot"></span> BUILT FOR THE WORKSHOP FLOOR</p>
+      <h1>Your workshop.<br><em>In motion.</em></h1>
+      <p class="hero-description">From the first inspection to the final invoice. Bring your jobs, vehicles and team into one shared workspace.</p>
+      <div class="hero-actions"><a class="button" href="#download">Download AutoCare Pro <span aria-hidden="true">↗</span></a><a class="text-link" href="#inside">Take a look inside <span aria-hidden="true">↓</span></a></div>
+      <p class="hero-meta">Windows & Mac <span>·</span> Java included <span>·</span> <span data-version>Version 1.0.7</span></p>
+    </div>
+    <div class="hero-visual">
+      <div class="visual-caption"><span class="caption-dot"></span> THE WHOLE WORKSHOP, ONE VIEW <span>01 / 05</span></div>
+      <a class="app-window" href="#inside" aria-label="Explore screenshots of the AutoCare Pro app"><div class="window-bar"><span class="window-dots"><i></i><i></i><i></i></span><span>AutoCare Pro / Manager workspace</span><span aria-hidden="true">⌘</span></div><img src="assets/workspace.png" alt="AutoCare Pro manager workspace showing workshop statistics and daily tools" width="1550" height="970" fetchpriority="high"></a>
+      <div class="sync-note"><span class="sync-icon" aria-hidden="true">↻</span><div><strong>Everyone on the same page.</strong><span>Shared jobs. Automatic updates.</span></div><span class="check" aria-hidden="true">✓</span></div>
+      <div class="visual-grid" aria-hidden="true"></div>
+    </div>
+  </section>
+  <div class="platform-strip container"><p>Made for the way<br><strong>your team works.</strong></p><span>WINDOWS</span><span>MAC · APPLE SILICON</span><span>MAC · INTEL</span><span class="strip-end">ONE CONNECTED WORKSHOP <span aria-hidden="true">↗</span></span></div>
+  <section id="features" class="features container section">
+    <div class="section-heading"><p class="eyebrow">LESS ADMIN. MORE PROGRESS.</p><h2>Keep the work moving.<br>Keep the details together.</h2><p>A desktop app for the everyday work of a garage — with shared records for the manager and every worker.</p></div>
+    <div class="feature-grid">
+      <article><span class="feature-icon" aria-hidden="true">↗</span><span class="feature-number">01</span><h3>Every job, every stage.</h3><p>Track pending inspections, work in progress and completed services. Keep the team aligned as each job moves through the workshop.</p><span class="feature-tag">SERVICE JOBS</span></article>
+      <article><span class="feature-icon" aria-hidden="true">↻</span><span class="feature-number">02</span><h3>One team. Shared records.</h3><p>Managers and linked workers see the same workshop data. Open sessions refresh service changes automatically while you work.</p><span class="feature-tag">MANAGER + WORKER</span></article>
+      <article><span class="feature-icon" aria-hidden="true">▤</span><span class="feature-number">03</span><h3>The full vehicle story.</h3><p>Keep customer details, vehicle records, inspection stages and service history together. Find the information you need before the next job.</p><span class="feature-tag">VEHICLES + CUSTOMERS</span></article>
+      <article><span class="feature-icon" aria-hidden="true">◷</span><span class="feature-number">04</span><h3>Ready for what’s next.</h3><p>See maintenance reminders, review parts and labour costs, and export service invoices as PDFs. Fewer loose ends at the end of the day.</p><span class="feature-tag">REMINDERS + INVOICES</span></article>
+    </div>
+  </section>
+  <section id="inside" class="showcase section">
+    <div class="container">
+      <div class="showcase-heading"><div><p class="eyebrow">A CLOSER LOOK</p><h2>Built around your<br><em>working day.</em></h2></div><p>Real screens from AutoCare Pro.<br>Explore the tools your team will use.</p></div>
+      <div class="screen-tabs" role="tablist" aria-label="App screenshots">
+        <button id="tab-workspace" role="tab" aria-selected="true" aria-controls="screen-panel" data-screen="workspace">Overview</button>
+        <button id="tab-jobs" role="tab" aria-selected="false" aria-controls="screen-panel" tabindex="-1" data-screen="jobs">Service jobs</button>
+        <button id="tab-vehicles" role="tab" aria-selected="false" aria-controls="screen-panel" tabindex="-1" data-screen="vehicles">Vehicles</button>
+        <button id="tab-services" role="tab" aria-selected="false" aria-controls="screen-panel" tabindex="-1" data-screen="services">Service records</button>
+        <button id="tab-reminders" role="tab" aria-selected="false" aria-controls="screen-panel" tabindex="-1" data-screen="reminders">Reminders</button>
+      </div>
+      <div id="screen-panel" class="screen-panel" role="tabpanel" aria-labelledby="tab-workspace"><div class="screen-title"><span id="screen-label">Your daily toolkit, in one place.</span><button id="expand-screen" aria-label="Enlarge the current app screenshot">View full screen <span aria-hidden="true">↗</span></button></div><img id="screen-image" src="assets/workspace.png" alt="Manager home screen with workshop statistics and daily tools" width="1550" height="970" loading="lazy"></div>
+      <div class="screen-caption"><p id="screen-description">Start with a clear overview, then jump straight into jobs, vehicles and team tools.</p><span>DEMO DATA SHOWN</span></div>
+    </div>
+  </section>
+  <section class="workflow container section"><div><p class="eyebrow">A SIMPLE START</p><h2>From download<br>to your next job.</h2><p>Choose the right installer, sign in, and give your team one place to work.</p><a class="text-link" href="#download">Choose your version <span aria-hidden="true">↓</span></a></div><ol><li><span>01</span><div><h3>Install on Windows or Mac.</h3><p>Java is already included in the installer. Pick the Mac package that matches your chip.</p></div></li><li><span>02</span><div><h3>Set up your workshop.</h3><p>Managers register and confirm their email, then create worker logins from the Team section.</p></div></li><li><span>03</span><div><h3>Bring the team together.</h3><p>Workers use individual logins created by their manager. Shared services refresh automatically across linked accounts.</p></div></li></ol></section>
+  <section id="download" class="download section"><div class="container"><div class="download-heading"><p class="eyebrow">LET’S GET TO WORK</p><h2>Your next job starts here.</h2><p>Download AutoCare Pro for your computer. <span data-version>Version 1.0.7</span>.</p></div><div class="download-grid">
+    <article><span class="os-icon" aria-hidden="true">⊞</span><h3>Windows</h3><p>For 64-bit Windows PCs</p><a class="button" data-download="windows" href="https://github.com/006shido/AutoCare-Pro/releases/download/v1.0.7/AutoCare-Pro-1.0.7.msi">Download for Windows <span aria-hidden="true">↓</span></a><small>MSI installer · Java included</small></article>
+    <article><span class="os-icon" aria-hidden="true">◈</span><h3>Mac · Apple Silicon</h3><p>For Macs with M-series chips</p><a class="button" data-download="arm64" href="https://github.com/006shido/AutoCare-Pro/releases/download/v1.0.7/AutoCare-Pro-1.0.7-macos-arm64.pkg">Download for M-series <span aria-hidden="true">↓</span></a><small>PKG installer · Java included</small></article>
+    <article><span class="os-icon" aria-hidden="true">◈</span><h3>Mac · Intel</h3><p>For Macs with Intel processors</p><a class="button" data-download="x64" href="https://github.com/006shido/AutoCare-Pro/releases/download/v1.0.7/AutoCare-Pro-1.0.7-macos-x64.pkg">Download for Intel <span aria-hidden="true">↓</span></a><small>PKG installer · Java included</small></article>
+    </div><div class="download-footnote"><p>Internet connection required. Mac builds tested on macOS 15. Installers are unsigned.</p><a href="https://github.com/006shido/AutoCare-Pro/releases/latest" target="_blank" rel="noopener noreferrer">Release notes & all downloads <span aria-hidden="true">↗</span></a></div></div></section>
+  <section id="faq" class="faq container section"><div><p class="eyebrow">GOOD TO KNOW</p><h2>A few quick answers.</h2></div><div class="faq-list">
+    <details><summary>Which Mac download should I choose?</summary><p>Open the Apple menu and choose About This Mac. If it lists an Apple M-series chip, choose Apple Silicon. If it lists an Intel processor, choose Intel.</p></details>
+    <details><summary>Do I need to install Java separately?</summary><p>No. The Windows MSI and both Mac PKG installers include the Java runtime needed by AutoCare Pro.</p></details>
+    <details><summary>How do managers and workers stay in sync?</summary><p>Workers are linked to their manager’s workshop. Service records are shared through Supabase, and open app sessions check for changes every 10 seconds and when switching sections. Refresh is paused while a modal editing form is open.</p></details>
+    <details><summary>How do app updates work?</summary><p>When the app opens, it checks for a newer release. Available updates are downloaded and verified, then the app asks whether to install. On Mac, it selects the package for your chip and opens macOS Installer after you accept. You can also check using App updates inside the app.</p></details>
+    <details><summary>Where are my workshop records stored?</summary><p>Workshop records and photos are stored in Supabase. Each manager has a separate workshop, and workers access the workshop their manager linked them to. The app needs an internet connection to sign in and use shared records.</p></details>
+    <details><summary>Why might my computer show an install warning?</summary><p>The current installers are unsigned, so Windows or macOS may show a security warning. Verify the download source and follow your organization’s installation policy. Code signing and notarization have not been completed.</p></details>
+  </div></section>
+</main>
+<footer class="site-footer container"><a class="brand" href="#"><img src="assets/logo.png" alt="" width="32" height="32"><span>AutoCare Pro</span></a><p>Built for the people who keep things moving.</p><a href="https://github.com/006shido/AutoCare-Pro/releases/latest" target="_blank" rel="noopener noreferrer">Downloads <span aria-hidden="true">↗</span></a><span>© <span id="year">2026</span> AutoCare Pro</span></footer>
+<dialog id="image-dialog" aria-label="App screenshot"><button id="close-image" aria-label="Close screenshot">Close ×</button><img id="dialog-image" src="assets/workspace.png" alt="AutoCare Pro screenshot"></dialog>
+</body>
+</html>
