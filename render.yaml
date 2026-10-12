@@ -14,3 +14,19 @@ services:
       - path: /*
         name: X-Frame-Options
         value: DENY
+  - type: web
+    name: autocare-pro-app
+    runtime: static
+    buildCommand: echo "AutoCare Pro static website ready"
+    staticPublishPath: website
+    headers:
+      - path: /*
+        name: X-Content-Type-Options
+        value: nosniff
+      - path: /*
+        name: Referrer-Policy
+        value: strict-origin-when-cross-origin
+      - path: /*
+        name: X-Frame-Options
+        value: DENY
+
